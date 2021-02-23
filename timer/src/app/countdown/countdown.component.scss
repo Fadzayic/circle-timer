@@ -1,0 +1,30 @@
+.timer {
+    position: relative;
+    top: -50px;
+    left: 20%;
+  }
+  #progress-circle {
+    margin-top: 50px;
+    transform: rotate(-90deg);
+  }
+  
+  .timer-text {
+    transform: rotate(90deg);
+    transform-origin: center;
+    font-size: 48px;
+    text-anchor: middle;
+    font-weight: 600;
+    fill: #333;
+  }
+
+  @keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
